@@ -1,0 +1,64 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            li #[a(href="/") Home] 
+            li #[a(href="/") About] 
+            li #[a(href="/") services] 
+            li #[a(href="/") Class Info] 
+            li #[a(href="/") Contact US] 
+    section#introSection 
+        div  
+            h2 Welcome to A-to-Z Dance Academy 
+        div 
+            h3 Eat Sleep Dance Repeat
+
+    section#missionSection 
+        h2 Our Mission 
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/b2.webp")
+
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tenetur quisquam incidunt adipisci nostrum qui repudiandae accusantium aut itaque ipsa.   
+        div.card.b
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/b1.webp")
+
+                div.card-content 
+                    p This is the best dance academy of universe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ad ab ipsam autem nostrum aperiam, soluta cumque! Excepturi, cum dignissimos! 
+        div.card.c
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/b3.webp")
+
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, repudiandae eaque necessitatibus sequi doloremque ipsum hic dolor amet! Vero, ipsam?      
+
+    section#sponcersSection 
+        h2 Section for sponcers 
+        div#sponsors
+            img(src="/static/s6.webp")
+            img(src="/static/s1.webp")
+            img(src="/static/s5.webp")
+
+            img(src="/static/s2.webp")
+            img(src="/static/s4.webp")
+
+    footer#footer   
+        p Copyright 2022 @A-to-Z-danceacademy.com                
+
+
+
+    script
+      include ../static/index.js

@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#navbar{
+    background-color: rgb(0, 0, 0);
+    padding: 13px 14px;
+    font-size: 24px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+
+}
+
+#navbar li{
+    list-style: none;
+ 
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 7px 11px;
+    color: white;   
+    text-shadow: 0.2em 0.1em 0.2em rgb(232, 229, 229)
+}
+
+#navbar li a:hover {
+
+    color: rgb(128, 119, 119);   
+}
+
+#introSection{
+    height: 420px;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    color: rgb(227, 213, 213);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 35px;
+    align-items: center;
+    opacity: 0.9;
+}
+#introSection h2{
+    font-size: 35px;
+    margin-top: 200px;
+    font-family: cursive;
+    text-shadow: 0.1em 0.1em 0.4em black
+}
+#introSection h3{
+    font-size: 30px;
+    font-family: cursive;
+    text-shadow: 0.1em 0.1em 0.4em black
+}
+#missionSection{
+    height: 300px;
+}
+#missionSection h2{
+ 
+    text-align: center;
+    padding-top: 12px;
+    font-size: 36px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 23px;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#im1 img{
+    width: 200px;
+    height: 50px;
+
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card-img img{
+    height: 150px;
+
+}
+.card-content p{
+    margin: 0 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#sponcersSection{
+    margin-top: 20px;
+    height: 270px;
+    background-color: rgb(151, 244, 227);
+}
+#sponcersSection h2{
+    text-shadow: 0.1em 0.1em 0.2em rgb(95, 80, 80);
+    text-align: center;
+    padding: 12px 0px;
+    font-size: 36px;
+}
+#sponsors img{
+    height: 150px;
+    width: 250px;
+    margin: 25px 22px;
+}
+#footer {
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 15px;
+    
+}
+
+#footer p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+}
